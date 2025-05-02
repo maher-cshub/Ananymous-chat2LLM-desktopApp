@@ -1,5 +1,7 @@
 # Core dependencies
 pywebview>=4.0
+requests>=2.28.0
+cryptography>=39.0.0
 
 # For packaging (optional)
 pyinstaller>=5.0

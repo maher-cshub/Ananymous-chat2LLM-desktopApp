@@ -49,7 +49,7 @@ def build_executable():
 def check_dependencies():
     """Check if required dependencies are installed"""
     try:
-        import webview
+        import pywebview
         subprocess.run(["pyinstaller", "--version"], check=True, stdout=subprocess.PIPE)
         return True
     except ImportError:
