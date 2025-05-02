@@ -1,4 +1,4 @@
-import webview as webview
+import pywebview as webview
 import os
 import sys
 import json
